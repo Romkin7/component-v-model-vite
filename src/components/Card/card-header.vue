@@ -3,7 +3,7 @@ import type { Job } from '@/@types/job'
 
 const props = defineProps(['name', 'level', 'job'] as const)
 const getImagePath = (job: Job) => {
-  return `../../assets/class_${job.toLowerCase()}.png`
+  return `/images/class_${job.toLowerCase()}.png`
 }
 </script>
 
